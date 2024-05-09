@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Texturina&display=swap');
+
+.new-header {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid;
+    border-width: 2px;
+    border-bottom-color: #afb6af; 
+    width: 99.9%;
+    height: 150px;
+}
+
+.header-img {
+    width: 120px;
+}
+
+header p {
+    font-family: 'Texturina', serif;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.new-nav {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 99.9%;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+}
+
+.left-section {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 70%;
+    height: 550px;
+}
+
+.rigth-section {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 30%;
+}
