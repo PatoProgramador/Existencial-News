@@ -92,7 +92,7 @@ header p {
 .left-section {
     background-color: aliceblue;
     width: 70%;
-    height: 980px;
+    height: 1000px;
     border-radius: 5px;
     padding: 20px;
 }
@@ -151,7 +151,7 @@ header p {
 }
 
 .right-cat-text {
-    padding-left: 14px;
+    padding: 0 14px;
     columns: 2;
     line-height: 22px;
 }
@@ -159,4 +159,17 @@ header p {
 .rigth-section {
     background-color: aliceblue;
     width: 30%;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.aside-principal-imgs {
+    width: 250px;
+    height: 350px;
+}
+
+.aside-text {
+    columns: 2;
+    line-height: 22px;
+    margin: 10px 0;
 }
