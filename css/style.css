@@ -75,13 +75,14 @@ header p {
     padding-left: 19px;
     height: 20px;
 }
-/* Articulo de la izquierda */
+/* Articulos */
 .main-container {
     background: url("/images/Fondo2.svg");
     background-size: 100%;
     width: 100%;
+    padding-bottom: 15px;
 }
-
+/* Articulo de la izq */
 .first-news-section {
     width: 97.5%;
     display: flex;
@@ -138,7 +139,7 @@ header p {
     border-top-color: #afb6af;
     padding: 10px;
 }
-
+/* Articulo de la derecha */
 .right-cat-section {
     width: 70%;
     display: flex;
@@ -172,4 +173,69 @@ header p {
     columns: 2;
     line-height: 22px;
     margin: 10px 0;
+}
+/* Art-gallery section */
+.art-gallery-section {
+    width: 94.5%;
+    height: auto;
+    padding: 20px 30px;
+    background-color: aliceblue;
+    margin: 2px 20px;
+    border-radius: 5px;
+}
+
+.images-gallery {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.images-gallery img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.images-gallery img:hover {
+    cursor: crosshair;
+    width: 400px;
+    height: auto;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.autor-section {
+    display: flex;
+    width: 96%;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.autor-card {
+    width: 260px;
+    height: fit-content;
+    background-color: rgba(202, 243, 243, 0.411);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.autor-img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.autor-name {
+    font-weight: bold;
+    margin: 6px 0;
+}
+
+.autor-text {
+    line-height: 18px;
 }
