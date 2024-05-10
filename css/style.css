@@ -239,3 +239,30 @@ header p {
 .autor-text {
     line-height: 18px;
 }
+/* Footer */
+.new-footer{
+    width: 95.8%;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    height: 230px;
+    background-color: rgba(3, 31, 0, 0.87);
+    padding: 20px 40px;
+}
+
+.footer-autor-section {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-footer-text {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.footer-autor-section li {
+    margin: 7px 0;
+}
